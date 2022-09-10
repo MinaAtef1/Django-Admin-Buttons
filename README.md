@@ -2,7 +2,7 @@
 
 This package used to add a button functionality to the change list columns in the django admin, it uses the action methods used in the ***ModelAdmin***<br>
 
-I wrote this package as an implementation for this article, it not hard to write the button yourself
+I wrote this package as an implementation for this [article](https://medium.com/@mina.atef0/django-admin-costume-buttons-942c97c284a8), it not hard to write the button yourself
 
 
 
