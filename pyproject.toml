@@ -1,7 +1,7 @@
 [project]
 name = "django-admin-buttons"
 description = "django-admin-buttons for the Django Admin."
-version = "0.2.0"
+version = "0.2.1"
 authors = [
     { name = "Mina Atef", email = "mina.atef0@gmail.com" }
 ]

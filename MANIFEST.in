@@ -1,2 +1,2 @@
-graft django_admin_button/static
-graft django_admin_button/templates
+graft django_admin_buttons/static
+graft django_admin_buttons/templates
