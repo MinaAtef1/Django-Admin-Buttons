@@ -4,7 +4,7 @@ from glob import glob
 
 setup(
     name='django_admin_buttons',
-    version='0.2.1',
+    version='0.2.2',
     license='MIT',
     author="Mina Atef",
     author_email='mina.atef0@gmail.com',

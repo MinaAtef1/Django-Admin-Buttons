@@ -2,3 +2,4 @@
 build/*
 django_admin_buttons.egg-info/*
 dist/*
+.vscode/settings.json
