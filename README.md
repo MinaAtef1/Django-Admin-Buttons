@@ -1,4 +1,5 @@
 # Django-Admin-Buttons
+![Django Admin Buttons](https://github.com/minaaaatef/Django-Admin-Buttons/blob/main/images/ex1.png?row=true)
 
 This package used to add a button functionality to the change list columns in the django admin, it uses the action methods used in the ***ModelAdmin***<br>
 
