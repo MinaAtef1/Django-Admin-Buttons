@@ -44,6 +44,21 @@ class AdminTest(admin.ModelAdmin):
     # create the function that displays the button
     @admin.display()
     def button(self, obj):
-        return AdminActionButton(obj.id, 'this', disabled = False, Class='btn-primary', label=None).render()
+        return AdminActionButton(obj.id, 'Test_function', disabled = False, Class='btn-primary', label=None).render()
 
 ```
+
+BUTTON PARAMETERS
+``` python
+AdminActionButton(id, action_name=None, url=None, disabled="", Class='btn-primary', label=None, confirm=True):
+```
+
+Explanation of the parameters:
+- **id**: the object id
+- **action_name**: the action name that you want to call
+- **url**: the url that you want to redirect to
+- **disabled**: if you want to disable the button
+- **Class**: the button class
+- **label**: the button label
+- **confirm**: if you want to show a confirmation message before executing the action
+

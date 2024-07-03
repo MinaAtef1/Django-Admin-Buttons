@@ -17,7 +17,7 @@ function getCookie(name) {
 function button_action(id, action) {
     form = document.createElement('form');
     form.setAttribute('method', 'post');
-    form.setAttribute('action', '?');
+    form.setAttribute('action', window.location.href);
   
     action_input = document.createElement('input');
     action_input.setAttribute('type', 'hidden');
